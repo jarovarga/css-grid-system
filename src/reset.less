@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+a {
+  background: 0 0;
+  outline: 0;
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  border: 0;
+  display: block;
+  max-width: 100%;
+}
+button,
+input,
+select,
+textarea {
+  border: 0;
+  font: inherit;
+  outline: 0;
+}
+button {
+  cursor: pointer;
+
+  &[disabled] {
+    cursor: default;
+  }
+}
+input,
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  appearance: none;
+
+  &:focus {
+    outline: 0;
+  }
+}
+input {
+  &[type="button"],
+  &[type="reset"],
+  &[type="submit"] {
+    cursor: pointer;
+  }
+  &[type="number"] {
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+
+      appearance: none;
+    }
+  }
+  &[disabled] {
+    cursor: default;
+  }
+  &:-moz-ui-invalid {
+    box-shadow: none;
+  }
+}
+textarea {
+  resize: none;
+
+  &:hover {
+    overflow: visible;
+  }
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
