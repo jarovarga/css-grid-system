@@ -1,6 +1,6 @@
 # CSS grid system
 
-An extremely lightweight (only 2 kB) and highly customizable [grid system](https://gitlab.com/jarovarga/css-grid-system).
+An extremely lightweight (only 2 kB) and highly customizable grid system.
 
 **Breakpoints:**
 
